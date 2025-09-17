@@ -1,0 +1,45 @@
+/* src/components/Services/Services.css */
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.marquee {
+  display: flex;
+  gap: 2rem;
+  white-space: nowrap;
+  padding: 1rem 0;
+  font-size: 1.25rem;
+}
+
+.marquee span {
+  padding: 0 1rem;
+  background-color: #0c89ac;
+  border-radius: 9999px;
+}
+
+.marquee-right {
+  animation: scroll-right 20s linear infinite;
+}
+
+.marquee-left {
+  animation: scroll-left 20s linear infinite;
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

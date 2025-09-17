@@ -1,0 +1,17 @@
+npm create vite@latest
+
+npm install
+
+npm run dev
+
+npm install tailwindcss @tailwindcss/vite
+
+npx shadcn@latest init
+
+npm i react-router-dom
+
+npm i axios
+
+npm i react-icons
+
+
